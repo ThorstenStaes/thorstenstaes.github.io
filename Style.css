@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+.header {
+	padding: 40px;
+    text-align: center;
+    background-image: url(images/error.jpg);
+	background-size: 100px 20000px;
+	font-size: 200%;
+}
+
+Body {
+	background-image: url(images/error.jpg);
+	background-size: 100px 20000px;
+	margin: 0; 
+	padding: 0; 
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+}
+p {color: black;
+padding-left: 200px;
+font-size: 150%}
+a:link {color: black}
+.gif {
+width: 110px;
+height: auto; 
+padding: 20px;
+	padding-left: 0px;
+	padding-top: 350px;
+	float: left;
+	margin: 25px;
+}
+.gif2 {padding-left:150px; height: auto;}
+.image {margin: 200px;
+	    margin-top: auto;}
+.image2 {margin: 200px; 
+	     margin-top:auto;}
+#block,#block2 {float: left; width: 50%;}
+#block{ margin-left: 50px;}
+#block2 {margin-top: -1267px;margin-left: 250px;}
+.frame {margin: 50px; 
+	margin-top: 25px;
+}
+.text {background-color:#918888; 
+	   width: 950px; opacity: 0.75;
+	margin-left:auto;
+	   text-align:left;
+	align-self: center;
+	   padding: 40px;}
+#wrapper {width:75%;height: 100%;
+	overflow: auto;padding: 250px;margin-top:-200px;}
+#left {width:50%;float:left;overflow-x:scroll;}
+#right{ width:50%;float:left;overflow:scroll;}
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+::-webkit-scrollbar{
+  width: 100px;
+}
+::-webkit-scrollbar-track{
+  background-image: url(images/scrollbar.gif);
+	background-size:100px;
+}
+::-webkit-scrollbar-thumb{
+  background-image:url(images/scrollbar2.gif);
+background-size: 100px}
+
+}
+::-webkit-scrollbar-corner{
+	background-image: url(images/scrollbar.gif);
+		background-size: 100px;
+}
