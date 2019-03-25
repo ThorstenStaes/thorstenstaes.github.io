@@ -78,8 +78,6 @@ img:hover {
 ::-webkit-scrollbar-thumb{
   background-image:url(images/scrollbar2.gif);
 background-size: 100px}
-
-}
 ::-webkit-scrollbar-corner{
 	background-image: url(images/scrollbar.gif);
 		background-size: 100px;
